@@ -17,13 +17,14 @@
     ],
     "paths": {
       "shared-lib": [
-        "dist/shared-lib"
+        "projects/shared-lib/src/public-api.ts"
       ],
-      "ui-sdk/*": [
-        "dist/ui-sdk/*"
+      "ui-sdk/i18n": [
+        "projects/ui-sdk/i18n/index.ts"
       ],
+    
       "auth-lib": [
-        "dist/auth-lib"
+        "projects/auth-lib/src/public-api.ts"
       ]
     }
   }
